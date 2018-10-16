@@ -1,0 +1,262 @@
+{
+  "operators": [
+    {
+      "key": "operator_d592837c-0a5d-4a78-b48f-95b18a2e0b50",
+      "id": "d592837c-0a5d-4a78-b48f-95b18a2e0b50",
+      "edges": [],
+      "processor": "Sink",
+      "name": "Add Sink/Operator",
+      "cofigured": false,
+      "stream": 3
+    },
+    {
+      "key": "operator_f66788a6-c96c-4534-89f4-f621c650fc8b",
+      "id": "f66788a6-c96c-4534-89f4-f621c650fc8b",
+      "edges": [
+        "54c7a450-450d-44aa-8efb-61d94c79b6ee",
+        "f2bd0bc1-d7b2-424a-9550-c96dacd442e0",
+        null
+      ],
+      "name": "sdsadas",
+      "type": "HyperSql",
+      "configured": true,
+      "processor": "Datasource",
+      "stream": 1
+    },
+    {
+      "key": "operator_5e8410fc-18a4-4191-9a95-5c7c061e4769",
+      "id": "5e8410fc-18a4-4191-9a95-5c7c061e4769",
+      "edges": [],
+      "processor": "Sink",
+      "name": "Add Sink/Operator",
+      "cofigured": false,
+      "stream": 1
+    },
+    {
+      "key": "operator_37a14b71-675b-4bfe-85eb-b37ea7c4baff",
+      "id": "37a14b71-675b-4bfe-85eb-b37ea7c4baff",
+      "edges": [],
+      "processor": "Sink",
+      "name": "Add Sink/Operator",
+      "cofigured": false,
+      "stream": 4
+    },
+    {
+      "key": "operator_d79c76d3-f836-4e94-a4cc-f55d892a881c",
+      "id": "d79c76d3-f836-4e94-a4cc-f55d892a881c",
+      "edges": [],
+      "processor": "Sink",
+      "name": "Add Sink/Operator",
+      "cofigured": false,
+      "stream": 2
+    },
+    {
+      "key": "operator_b8f2af35-1999-4800-bf6b-9bf4d606008f",
+      "id": "b8f2af35-1999-4800-bf6b-9bf4d606008f",
+      "edges": [
+        "7baf55d8-1f6d-4449-9e47-7015bf5ac8d1",
+        null
+      ],
+      "name": "And",
+      "type": "AndConfig",
+      "configured": true,
+      "stream": 2
+    },
+    {
+      "key": "operator_f1e3e99c-d961-4a3b-8d0d-80090f2c528b",
+      "id": "f1e3e99c-d961-4a3b-8d0d-80090f2c528b",
+      "edges": [
+        "6590eb7a-6bf5-4fa3-9e2a-8239b3f95160"
+      ],
+      "name": "And",
+      "type": "AndConfig",
+      "configured": true,
+      "stream": 2
+    },
+    {
+      "key": "operator_09202b58-bca6-4d6f-b846-dd956058c663",
+      "id": "09202b58-bca6-4d6f-b846-dd956058c663",
+      "edges": [
+        "0c07b5da-43a3-4a6c-832e-7972e41831f8"
+      ],
+      "name": "GreaterThan",
+      "type": "GreaterThanConfig",
+      "configured": true,
+      "stream": 2
+    },
+    {
+      "key": "operator_61184175-88e6-45e4-82ed-0daed3de6926",
+      "id": "61184175-88e6-45e4-82ed-0daed3de6926",
+      "edges": [
+        "dd10ec6d-9f27-4cd4-9153-164eae3f27fc"
+      ],
+      "name": "IsEmpty",
+      "type": "IsEmptyConfig",
+      "configured": true,
+      "stream": 3
+    },
+    {
+      "key": "operator_2a5ac4ad-bfe2-4944-85f1-0d5e55768cde",
+      "id": "2a5ac4ad-bfe2-4944-85f1-0d5e55768cde",
+      "edges": [
+        "ba4d5d35-98b1-47fb-be3c-663269b8bb44"
+      ],
+      "name": "sdsadas_(2)",
+      "type": "HyperSql",
+      "configured": true,
+      "processor": "Datasource",
+      "stream": 4
+    },
+    {
+      "key": "operator_4685dc7a-d185-4c49-85be-c55fbfd7fc2d",
+      "id": "4685dc7a-d185-4c49-85be-c55fbfd7fc2d",
+      "edges": [
+        "c9266715-a477-47e1-8bc9-8b1ab1648619",
+        null
+      ],
+      "name": "And",
+      "type": "AndConfig",
+      "configured": true,
+      "stream": 4
+    },
+    {
+      "key": "operator_46b29af8-31d2-4a44-9a4d-5557c618ef7b",
+      "id": "46b29af8-31d2-4a44-9a4d-5557c618ef7b",
+      "edges": [
+        "08a51f72-f92c-4b04-928d-c1feab36d7ce"
+      ],
+      "name": "Ceiling",
+      "type": "CelingConfig",
+      "configured": true,
+      "stream": 5
+    },
+    {
+      "key": "operator_4a322725-8f18-4deb-b107-0fdeb42d2549",
+      "id": "4a322725-8f18-4deb-b107-0fdeb42d2549",
+      "edges": [],
+      "processor": "Sink",
+      "name": "Add Sink/Operator",
+      "cofigured": false,
+      "stream": 5
+    },
+    {
+      "key": "operator_3cbcab0a-44af-4240-9435-0d551923832a",
+      "id": "3cbcab0a-44af-4240-9435-0d551923832a",
+      "edges": [
+        "3d93fe84-cf52-414b-a5cc-e08b229196e2"
+      ],
+      "name": "IsEven",
+      "type": "IsEvenConfig",
+      "configured": true,
+      "stream": 6
+    },
+    {
+      "key": "operator_4a05271b-d53c-4e49-b342-a7f0ae08f488",
+      "id": "4a05271b-d53c-4e49-b342-a7f0ae08f488",
+      "edges": [],
+      "processor": "Sink",
+      "name": "Add Sink/Operator",
+      "cofigured": false,
+      "stream": 6
+    },
+    {
+      "key": "operator_74a115ae-6f34-4d36-852c-eebf8c5e73a2",
+      "id": "74a115ae-6f34-4d36-852c-eebf8c5e73a2",
+      "edges": [],
+      "className": "placeholder",
+      "processor": "Datasource",
+      "name": "Add Datasource",
+      "configured": false
+    }
+  ],
+  "edges": [
+    {
+      "startOperator": "09202b58-bca6-4d6f-b846-dd956058c663",
+      "endOperator": "d79c76d3-f836-4e94-a4cc-f55d892a881c",
+      "weight": 0,
+      "id": "0c07b5da-43a3-4a6c-832e-7972e41831f8",
+      "key": "operator_09202b58-bca6-4d6f-b846-dd956058c663_operator_d79c76d3-f836-4e94-a4cc-f55d892a881c"
+    },
+    {
+      "startOperator": "f66788a6-c96c-4534-89f4-f621c650fc8b",
+      "endOperator": "f1e3e99c-d961-4a3b-8d0d-80090f2c528b",
+      "weight": 0,
+      "id": "54c7a450-450d-44aa-8efb-61d94c79b6ee",
+      "key": "operator_f66788a6-c96c-4534-89f4-f621c650fc8b_operator_f1e3e99c-d961-4a3b-8d0d-80090f2c528b"
+    },
+    {
+      "startOperator": "f1e3e99c-d961-4a3b-8d0d-80090f2c528b",
+      "endOperator": "09202b58-bca6-4d6f-b846-dd956058c663",
+      "weight": 0,
+      "id": "6590eb7a-6bf5-4fa3-9e2a-8239b3f95160",
+      "key": "operator_f1e3e99c-d961-4a3b-8d0d-80090f2c528b_operator_09202b58-bca6-4d6f-b846-dd956058c663"
+    },
+    {
+      "startOperator": "f66788a6-c96c-4534-89f4-f621c650fc8b",
+      "endOperator": "b8f2af35-1999-4800-bf6b-9bf4d606008f",
+      "weight": 0,
+      "id": "f2bd0bc1-d7b2-424a-9550-c96dacd442e0",
+      "key": "operator_f66788a6-c96c-4534-89f4-f621c650fc8b_operator_b8f2af35-1999-4800-bf6b-9bf4d606008f"
+    },
+    {
+      "startOperator": "b8f2af35-1999-4800-bf6b-9bf4d606008f",
+      "endOperator": "5e8410fc-18a4-4191-9a95-5c7c061e4769",
+      "weight": 0,
+      "id": "7baf55d8-1f6d-4449-9e47-7015bf5ac8d1",
+      "key": "operator_b8f2af35-1999-4800-bf6b-9bf4d606008f_operator_5e8410fc-18a4-4191-9a95-5c7c061e4769"
+    },
+    {
+      "startOperator": "61184175-88e6-45e4-82ed-0daed3de6926",
+      "endOperator": "d592837c-0a5d-4a78-b48f-95b18a2e0b50",
+      "weight": 0,
+      "id": "dd10ec6d-9f27-4cd4-9153-164eae3f27fc",
+      "key": "operator_61184175-88e6-45e4-82ed-0daed3de6926_operator_d592837c-0a5d-4a78-b48f-95b18a2e0b50"
+    },
+    {
+      "startOperator": "b8f2af35-1999-4800-bf6b-9bf4d606008f",
+      "endOperator": "61184175-88e6-45e4-82ed-0daed3de6926",
+      "weight": 0,
+      "key": "operator_b8f2af35-1999-4800-bf6b-9bf4d606008f_operator_61184175-88e6-45e4-82ed-0daed3de6926"
+    },
+    {
+      "startOperator": "2a5ac4ad-bfe2-4944-85f1-0d5e55768cde",
+      "endOperator": "4685dc7a-d185-4c49-85be-c55fbfd7fc2d",
+      "weight": 0,
+      "id": "ba4d5d35-98b1-47fb-be3c-663269b8bb44",
+      "key": "operator_2a5ac4ad-bfe2-4944-85f1-0d5e55768cde_operator_4685dc7a-d185-4c49-85be-c55fbfd7fc2d"
+    },
+    {
+      "startOperator": "4685dc7a-d185-4c49-85be-c55fbfd7fc2d",
+      "endOperator": "37a14b71-675b-4bfe-85eb-b37ea7c4baff",
+      "weight": 0,
+      "id": "c9266715-a477-47e1-8bc9-8b1ab1648619",
+      "key": "operator_4685dc7a-d185-4c49-85be-c55fbfd7fc2d_operator_37a14b71-675b-4bfe-85eb-b37ea7c4baff"
+    },
+    {
+      "startOperator": "46b29af8-31d2-4a44-9a4d-5557c618ef7b",
+      "endOperator": "4a322725-8f18-4deb-b107-0fdeb42d2549",
+      "weight": 0,
+      "id": "08a51f72-f92c-4b04-928d-c1feab36d7ce",
+      "key": "operator_46b29af8-31d2-4a44-9a4d-5557c618ef7b_operator_4a322725-8f18-4deb-b107-0fdeb42d2549"
+    },
+    {
+      "startOperator": "4685dc7a-d185-4c49-85be-c55fbfd7fc2d",
+      "endOperator": "46b29af8-31d2-4a44-9a4d-5557c618ef7b",
+      "weight": 0,
+      "key": "operator_4685dc7a-d185-4c49-85be-c55fbfd7fc2d_operator_46b29af8-31d2-4a44-9a4d-5557c618ef7b"
+    },
+    {
+      "startOperator": "3cbcab0a-44af-4240-9435-0d551923832a",
+      "endOperator": "4a05271b-d53c-4e49-b342-a7f0ae08f488",
+      "weight": 0,
+      "id": "3d93fe84-cf52-414b-a5cc-e08b229196e2",
+      "key": "operator_3cbcab0a-44af-4240-9435-0d551923832a_operator_4a05271b-d53c-4e49-b342-a7f0ae08f488"
+    },
+    {
+      "startOperator": "f66788a6-c96c-4534-89f4-f621c650fc8b",
+      "endOperator": "3cbcab0a-44af-4240-9435-0d551923832a",
+      "weight": 0,
+      "key": "operator_f66788a6-c96c-4534-89f4-f621c650fc8b_operator_3cbcab0a-44af-4240-9435-0d551923832a"
+    }
+  ]
+}
